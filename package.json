@@ -37,6 +37,7 @@
 		]
 	},
 	"dependencies": {
+		"@fontsource-variable/geist-mono": "^5.2.6",
 		"@fontsource-variable/manrope": "^5.2.6",
 		"sass-embedded": "^1.89.2"
 	}

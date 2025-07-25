@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '@fontsource-variable/manrope';
+	import '@fontsource-variable/geist-mono';
 
 	const { children } = $props();
 </script>
@@ -34,6 +35,8 @@
 		--gold-75: color-mix(in srgb, 75% var(--gold), 25% transparent);
 		--gold-50: color-mix(in srgb, 50% var(--gold), 50% transparent);
 		--gold-25: color-mix(in srgb, 25% var(--gold), 75% transparent);
+
+		--font-mono: 'Geist Mono Variable', monospace;
 
 		--green: #4ae85f;
 		--red: #ee4949;
