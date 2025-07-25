@@ -14,7 +14,7 @@
 
 	:global(body) {
 		all: unset;
-		font-family: 'Manrope Variable', sans-serif;
+		font-family: var(--font-mono);
 		color: var(--text);
 		background: var(--background);
 		// https://coolors.co/palette/464545-2f2f2f-1b1b1b-f54703-ff7518
@@ -25,11 +25,9 @@
 		--text: #fcfcfc;
 		--text-25: color-mix(in srgb, 25% var(--text), 75% transparent);
 
-		--primary: #f54703;
+		--primary: #f67216;
 		--primary-25: color-mix(in srgb, 25% var(--primary), 75% transparent);
-
-		--secondary: #ff7518;
-		--secondary-25: color-mix(in srgb, 25% var(--secondary), 75% transparent);
+		--primary-10: color-mix(in srgb, 10% var(--primary), 75% transparent);
 
 		--gold: #fcba03;
 		--gold-75: color-mix(in srgb, 75% var(--gold), 25% transparent);
