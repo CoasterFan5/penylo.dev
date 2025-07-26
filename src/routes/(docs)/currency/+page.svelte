@@ -5,7 +5,7 @@
 <h2>Penylo Currency Docs</h2>
 <p>
 	Penylo currency provides daily exchange rates for each currency. It's entirely free and has no
-	rate limit. View the <Link href="/currency/codes">/codes</Link> and <Link href="/currency/::"
+	rate limit. View the <Link href="/currency/codes">/codes</Link> and <Link href="/currency/rates"
 		>/rates/::</Link
 	> docs
 </p>
