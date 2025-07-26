@@ -33,13 +33,6 @@
 	:global(.codeBlockWrap > pre) {
 		border-radius: 0.5rem;
 		padding: 1rem;
-	}
-
-	code {
-		background: var(--primary-10);
-		padding: 1rem;
-		border: 1px solid var(--text-25);
-		display: flex;
-		border-radius: 0.5rem;
+		overflow-x: auto;
 	}
 </style>

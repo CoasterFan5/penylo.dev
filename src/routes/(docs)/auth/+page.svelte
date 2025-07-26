@@ -10,6 +10,6 @@
 	language="bash"
 />
 <p>
-	However, this will do nothing becase there is no authorization for any Penylo api currently. It
+	However, this will do nothing because there is no authorization for any Penylo api currently. It
 	might just make you more comfortable.
 </p>

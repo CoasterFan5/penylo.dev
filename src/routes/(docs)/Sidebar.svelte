@@ -1,4 +1,12 @@
-<div class="sidebar">
+<script lang="ts">
+	let {
+		overlaySidebar = false
+	}: {
+		overlaySidebar: boolean;
+	} = $props();
+</script>
+
+<div class="sidebar" class:overlay={overlaySidebar}>
 	<div class="section">
 		<span class="sectionHead">Hello Penylo</span>
 		<a class="pageLink" href="/">About</a>
@@ -19,10 +27,12 @@
 		padding: 1rem 0;
 		border-right: 1px solid var(--text-25);
 		display: flex;
-		min-width: 10rem;
 		flex-direction: column;
+		min-width: 13rem;
 		font-family: var(--font-mono);
 		height: 100%;
+		padding: 1rem 1rem;
+		background: var(--background);
 	}
 
 	.section {
@@ -50,5 +60,11 @@
 		font-weight: 700;
 		margin: 0;
 		text-decoration: underline;
+	}
+
+	.overlay {
+		position: absolute;
+		z-index: 100;
+		height: calc(100vh);
 	}
 </style>
