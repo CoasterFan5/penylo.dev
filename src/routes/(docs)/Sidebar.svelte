@@ -1,10 +1,18 @@
 <script lang="ts">
+	import type { MouseEventHandler } from 'svelte/elements';
+
 	let {
-		overlaySidebar = false
+		overlaySidebar = false,
+		closeSidebar
 	}: {
 		overlaySidebar: boolean;
+		closeSidebar: MouseEventHandler<HTMLButtonElement>;
 	} = $props();
 </script>
+
+{#if overlaySidebar}
+	<button class="overlayCloseBg" aria-label="close" onclick={closeSidebar}></button>
+{/if}
 
 <div class="sidebar" class:overlay={overlaySidebar}>
 	<div class="section">
@@ -66,5 +74,14 @@
 		position: absolute;
 		z-index: 100;
 		height: calc(100dvh);
+	}
+
+	.overlayCloseBg {
+		all: unset;
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		height: 100dvh;
+		width: 100%;
 	}
 </style>

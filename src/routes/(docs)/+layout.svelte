@@ -15,7 +15,7 @@
 	</div>
 	<div class="body">
 		{#if showSidebar}
-			<Sidebar overlaySidebar={!large.current} />
+			<Sidebar overlaySidebar={!large.current} closeSidebar={() => (showSidebar = false)} />
 		{/if}
 		<div class="content">
 			<div class="content-inner">
