@@ -5,22 +5,10 @@
 
 	const { children } = $props();
 
-	const bannerInfo:
-		| {
-				title: string;
-				url: string;
-		  }
-		| false = { title: 'Currency API Out Now!', url: '/currency' };
-
 	let showSidebar = $state(large.current);
 </script>
 
 <div class="wrap">
-	{#if bannerInfo}
-		<a class="banner" href={bannerInfo.url}>
-			{bannerInfo.title}
-		</a>
-	{/if}
 	<div class="header">
 		<button onclick={() => (showSidebar = !showSidebar)}>|||</button>
 		<a href="/" class="title"> penylo.dev </a>
@@ -89,22 +77,6 @@
 		width: 100%;
 		max-width: 80ch;
 		padding-bottom: 10rem;
-	}
-
-	.banner {
-		width: 100%;
-		padding: 0.25rem;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		text-decoration: none;
-		color: var(--text);
-		background: var(--primary-25);
-		transition: all cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.1s;
-
-		&:hover {
-			background: var(--primary);
-		}
 	}
 
 	button {
