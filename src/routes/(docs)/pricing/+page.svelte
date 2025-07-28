@@ -57,16 +57,34 @@
 <style lang="scss">
 	.label {
 		font-weight: 700;
+		position: sticky;
+		left: 0px;
+		border-left: 1px solid var(--text-25);
 	}
 
 	.tableWrap {
 		overflow-x: auto;
-		position: relative;
+		z-index: 50;
 	}
 
 	table {
 		width: 100%;
-		background: var(--text-25);
+		z-index: 50;
+		border: 0px;
+		outline: 0px;
+		border-collapse: collapse;
+		border-bottom: 1px solid var(--text-25);
+	}
+
+	tbody {
+		display: table;
+		width: 100%;
+		margin: 0px;
+	}
+
+	thead {
+		border-top: 1px solid var(--text-25);
+		border-bottom: 1px solid var(--text-25);
 	}
 
 	tr {
