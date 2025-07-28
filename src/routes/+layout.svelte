@@ -10,6 +10,7 @@
 <style lang="scss">
 	:global(*) {
 		box-sizing: border-box;
+		overflow-wrap: break-word;
 	}
 
 	:global(body) {
