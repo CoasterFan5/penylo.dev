@@ -61,6 +61,7 @@
 
 	.tableWrap {
 		overflow-x: auto;
+		position: relative;
 	}
 
 	table {
