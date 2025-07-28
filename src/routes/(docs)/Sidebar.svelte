@@ -37,7 +37,7 @@
 
 	.section {
 		margin-bottom: 1rem;
-		font-size: 0.9rem;
+		font-size: 1rem;
 		display: flex;
 		flex-direction: column;
 	}
