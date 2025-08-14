@@ -33,7 +33,6 @@
 	<div class="section">
 		<span class="sectionHead">/tickers</span>
 		<a class="pageLink" href="/tickers">/</a>
-		<a class="pageLink" href="/tickers/docs">/docs</a>
 	</div>
 </div>
 
