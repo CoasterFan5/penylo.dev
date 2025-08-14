@@ -1,5 +1,4 @@
 <script>
-	import Link from '$lib/components/Link.svelte';
 	import TryQuery from '$lib/components/TryQuery.svelte';
 </script>
 
@@ -21,5 +20,3 @@
 </p>
 
 <TryQuery responseType="GET" route="https://tickers.penylo.dev?q=Apple&skip=2" />
-
-<p>Before using this api, please check out the <Link href="/usage">Penylo usage notice</Link></p>
