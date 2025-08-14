@@ -20,6 +20,7 @@
 		<a class="pageLink" href="/">About</a>
 		<a class="pageLink" href="/pricing">Pricing</a>
 		<a class="pageLink" href="/auth">Auth</a>
+		<a class="pageLink" href="/usage">Usage Notice</a>
 	</div>
 
 	<div class="section">
@@ -27,6 +28,12 @@
 		<a class="pageLink" href="/currency">/</a>
 		<a class="pageLink" href="/currency/codes">/codes</a>
 		<a class="pageLink" href="/currency/rates">/rates/::</a>
+	</div>
+
+	<div class="section">
+		<span class="sectionHead">/tickers</span>
+		<a class="pageLink" href="/tickers">/</a>
+		<a class="pageLink" href="/tickers/docs">/docs</a>
 	</div>
 </div>
 

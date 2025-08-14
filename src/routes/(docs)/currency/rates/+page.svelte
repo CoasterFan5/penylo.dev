@@ -1,13 +1,16 @@
 <script>
-	import CodeBlock from '$lib/components/CodeBlock.svelte';
 	import Link from '$lib/components/Link.svelte';
-	import { jsonResponse } from './jsonResponse';
+	import TryQuery from '$lib/components/TryQuery.svelte';
 </script>
 
 <h2>currency.penylo.dev/rates/::</h2>
-<p>Replace :: with any of the <Link href="/currency/codes/">supported currency codes</Link></p>
+<p>
+	Replace :: with any of the <Link href="/currency/codes/">supported currency codes</Link>. This
+	route returns the rate of the currencies relative to the specified base.
+</p>
 
 <h3>Example:</h3>
-<CodeBlock language="bash" code="curl https://currency.penylo.dev/rates/USD"></CodeBlock>
-<p>This returns the value of each currency in relation to 1 USD:</p>
-<CodeBlock language="json" code={JSON.stringify(jsonResponse, null, 4)}></CodeBlock>
+<TryQuery responseType="GET" route="https://currency.penylo.dev/rates/USD" />
+
+<h3>Example 2:</h3>
+<TryQuery responseType="GET" route="https://currency.penylo.dev/rates/EUR" />

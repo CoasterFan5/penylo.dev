@@ -31,8 +31,6 @@
 
 <style lang="scss">
 	:global(.codeBlockWrap > pre) {
-		border-radius: 0.5rem;
-		padding: 1rem;
 		overflow-x: auto;
 	}
 </style>
