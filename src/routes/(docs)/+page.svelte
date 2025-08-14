@@ -7,6 +7,5 @@
 
 <h3>New:</h3>
 <p>
-	<Link href="/currency">Currency API</Link> can provide you with exchange rates between the most common
-	currencies.
+	<Link href="/tickers">Tickers</Link> can provide you with a searchable list of SEC recognized tickers.
 </p>
