@@ -19,7 +19,6 @@
 		<span class="sectionHead">Hello Penylo</span>
 		<a class="pageLink" href="/">About</a>
 		<a class="pageLink" href="/pricing">Pricing</a>
-		<a class="pageLink" href="/auth">Auth</a>
 		<a class="pageLink" href="/usage">Usage Notice</a>
 	</div>
 
