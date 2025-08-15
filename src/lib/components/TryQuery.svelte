@@ -23,9 +23,10 @@
 		<button class="play" onclick={() => (showingResponse = !showingResponse)}
 			><span class:showing={showingResponse} class="iconSpan"><PlayIcon /></span></button
 		>
-		<span class="curlCommand">curl -X {responseType} </span>
-		&MediumSpace;
-		<span class="route">"{route}"</span>
+		<p class="command">
+			<span class="curlCommand">curl -X {responseType} </span>
+			<span class="route">"{route}"</span>
+		</p>
 	</span>
 
 	<div class="res" class:showing={showingResponse}>
@@ -51,6 +52,7 @@
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		justify-content: start;
 	}
 
 	hr {
@@ -78,6 +80,12 @@
 			color: var(--text);
 			background: var(--primary);
 		}
+	}
+
+	.command {
+		margin: 0;
+		word-wrap: break-word;
+		word-break: break-all;
 	}
 
 	.curlCommand {
