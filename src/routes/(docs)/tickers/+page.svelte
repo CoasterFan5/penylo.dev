@@ -1,24 +1,11 @@
 <script>
-	import TryQuery from '$lib/components/TryQuery.svelte';
+	import Link from '$lib/components/Link.svelte';
 </script>
 
-<h2>Penylo Ticker Docs</h2>
-
-<p>NOTICE: Penylo will start enforcing versioning on this route August 31st.</p>
-
+<h2>tickers.penylo.dev</h2>
+<p>Provides a list of SEC recognized stock tickers</p>
+<p>Currently, v1 is available and stable. <Link href="/tickers/v1">View the V1 docs</Link></p>
 <p>
-	If you want a list of all SEC recognized tickers, you can use this api route. Note, it caps the
-	returned tickers at 100
+	However, v2 is available but in a very early experimental state. But, it has some very cool new
+	features. <Link href="/tickers/v2">View the V2 docs</Link>
 </p>
-
-<TryQuery responseType="GET" route="https://tickers.penylo.dev/v1/" />
-
-<p>You can use query parameters to search for a specific string.</p>
-<TryQuery responseType="GET" route="https://tickers.penylo.dev/v1/?q=Apple" />
-
-<p>
-	If you need to get more results from the query, you can use the skip header to skip x amount of
-	results. Note: The total records field does not change when using skip.
-</p>
-
-<TryQuery responseType="GET" route="https://tickers.penylo.dev/v1/?q=Apple&skip=2" />
