@@ -4,6 +4,8 @@
 
 <h2>Penylo Ticker Docs</h2>
 
+<p>NOTICE: Penylo will start enforcing versioning on this route August 31st.</p>
+
 <p>
 	If you want a list of all SEC recognized tickers, you can use this api route. Note, it caps the
 	returned tickers at 100
