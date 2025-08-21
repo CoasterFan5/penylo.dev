@@ -9,14 +9,14 @@
 	returned tickers at 100
 </p>
 
-<TryQuery responseType="GET" route="https://tickers.penylo.dev" />
+<TryQuery responseType="GET" route="https://tickers.penylo.dev/v1/" />
 
 <p>You can use query parameters to search for a specific string.</p>
-<TryQuery responseType="GET" route="https://tickers.penylo.dev?q=Apple" />
+<TryQuery responseType="GET" route="https://tickers.penylo.dev/v1/?q=Apple" />
 
 <p>
 	If you need to get more results from the query, you can use the skip header to skip x amount of
 	results. Note: The total records field does not change when using skip.
 </p>
 
-<TryQuery responseType="GET" route="https://tickers.penylo.dev?q=Apple&skip=2" />
+<TryQuery responseType="GET" route="https://tickers.penylo.dev/v1/?q=Apple&skip=2" />
