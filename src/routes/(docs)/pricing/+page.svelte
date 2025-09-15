@@ -52,7 +52,7 @@
 	</table>
 </div>
 
-<span class="small">*We would still appreciate it :)</span>
+<span class="small">*I would still appreciate it :)</span>
 
 <style lang="scss">
 	.label {

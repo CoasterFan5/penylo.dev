@@ -20,6 +20,7 @@
 		<a class="pageLink" href="/">About</a>
 		<a class="pageLink" href="/pricing">Pricing</a>
 		<a class="pageLink" href="/usage">Usage Notice</a>
+		<a class="pageLink" href="/support">Support</a>
 	</div>
 
 	<div class="section">
