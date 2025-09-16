@@ -18,18 +18,41 @@
 
 <div class="logos">
 	{#each items as item (item[0])}
-		<img src="https://logo.penylo.dev/{item[1]}" alt="" />
+		<div class="logoGrid">
+			<img loading="lazy" class="square" src="https://logo.penylo.dev/{item[1]}" alt="" />
+			<img loading="lazy" class="square-2" src="https://logo.penylo.dev/{item[1]}" alt="" />
+			<img loading="lazy" class="square-3" src="https://logo.penylo.dev/{item[1]}" alt="" />
+			<img loading="lazy" class="circle" src="https://logo.penylo.dev/{item[1]}" alt="" />
+		</div>
 	{/each}
 </div>
 
 <style lang="scss">
 	.logos {
 		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(calc(6rem + 1px), 1fr));
+		gap: 0.25rem;
+	}
+
+	.logoGrid {
+		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(3rem, 1fr));
 		gap: 1px;
 		img {
 			width: 100%;
 			height: 100%;
+
+			&.square-2 {
+				border-radius: 0.25rem;
+			}
+
+			&.square-3 {
+				border-radius: 0.5rem;
+			}
+
+			&.circle {
+				border-radius: 100%;
+			}
 		}
 	}
 </style>
