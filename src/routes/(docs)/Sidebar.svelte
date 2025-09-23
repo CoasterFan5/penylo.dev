@@ -35,6 +35,14 @@
 		<a class="pageLink" href="/tickers">/</a>
 		<a class="pageLink" href="/tickers/v1/">/v1</a>
 	</div>
+
+	<div class="section" style="display: none">
+		<span class="sectionHead">/icons</span>
+		<a class="pageLink" href="/icons/">/</a>
+		<a class="pageLink" href="/icons/::">/::</a>
+		<a class="pageLink" href="/icons/gallery">/gallery</a>
+		<a class="pageLink" href="/icons/list.json">/list.json</a>
+	</div>
 </div>
 
 <style lang="scss">

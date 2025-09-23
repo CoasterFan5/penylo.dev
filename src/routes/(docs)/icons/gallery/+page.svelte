@@ -4,7 +4,7 @@
 	let items: [string, string][] = $state([]);
 
 	onMount(async () => {
-		const resp = await fetch('https://logo.penylo.dev/list.json');
+		const resp = await fetch('https://icons.penylo.dev/list.json');
 		const fetchedItems = (await resp.json()).items as Record<string, string[]>;
 
 		for (const key in fetchedItems) {
@@ -14,11 +14,11 @@
 	});
 </script>
 
-<h2>Penylo Logo Gallery ({items.length} items)</h2>
+<h2>Penylo Icons Gallery ({items.length} items)</h2>
 
 <div class="logos">
 	{#each items as item (item[0])}
-		<img loading="lazy" class="square" src="https://logo.penylo.dev/{item[1]}" alt="" />
+		<img loading="lazy" class="square" src="https://icons.penylo.dev/{item[1]}" alt="" />
 	{/each}
 </div>
 
