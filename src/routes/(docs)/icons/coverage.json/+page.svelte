@@ -11,5 +11,5 @@
 	<p>Loading Coverage Data...</p>
 {:then iconCoverage}
 	<p>Serving {iconCoverage.count} icons</p>
-	<p>Covering {iconCoverage.percent.toFixed(2)}% of the S&P 500.</p>
+	<p>Covering {(iconCoverage.percent * 100).toFixed(2)}% of the S&P 500.</p>
 {/await}
