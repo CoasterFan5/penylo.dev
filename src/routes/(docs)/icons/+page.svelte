@@ -7,6 +7,6 @@
 
 <h3>Why use Penylo Icons?</h3>
 <p>
-	We don't automatically scrape icons and instead craft each icon by hand to guarentee a good
+	We don't automatically scrape icons and instead craft each icon by hand to guarantee a good
 	looking svg.
 </p>
