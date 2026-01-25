@@ -1,6 +1,6 @@
 <script>
 	import Link from '$lib/components/Link.svelte';
-	import TryQuery from '$lib/components/TryQuery.svelte';
+	import TryQueryImage from '$lib/components/TryQueryImage.svelte';
 </script>
 
 <h2>icons.penylo.dev/::</h2>
@@ -10,4 +10,4 @@
 	returns an svg for the key.
 </p>
 
-<TryQuery responseType="GET" route="https://icons.penylo.dev/aapl" />
+<TryQueryImage responseType="GET" route="https://icons.penylo.dev/aapl" />

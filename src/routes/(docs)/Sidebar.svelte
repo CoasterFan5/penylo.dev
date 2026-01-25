@@ -36,7 +36,7 @@
 		<a class="pageLink" href="/tickers/v1/">/v1</a>
 	</div>
 
-	<div class="section" style="display: none">
+	<div class="section">
 		<span class="sectionHead">/icons</span>
 		<a class="pageLink" href="/icons/">/</a>
 		<a class="pageLink" href="/icons/::">/::</a>
