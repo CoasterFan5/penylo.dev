@@ -1,9 +1,13 @@
 <script>
+	import Link from '$lib/components/Link.svelte';
 </script>
 
 <h2>icons.penylo.dev</h2>
 
-<p>Warning: icons.penylo.dev is in very early alpha and not nearing completion</p>
+<p>
+	Penylo Icons requires attribution, please check <Link href="/icons/attribution">/attribution</Link
+	>
+</p>
 
 <h3>Why use Penylo Icons?</h3>
 <p>

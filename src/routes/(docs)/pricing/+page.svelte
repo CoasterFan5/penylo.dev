@@ -47,9 +47,9 @@
 			</tr>
 			<tr>
 				<td class="label"> Attribution <span><div class="sub">2</div></span></td>
-				<td> Not Required </td>
-				<td> Appreciated </td>
-				<td> Not necessary </td>
+				<td> Sometimes </td>
+				<td> Sometimes </td>
+				<td> Sometimes </td>
 			</tr>
 			<tr>
 				<td class="label"> Support </td>
@@ -66,7 +66,8 @@
 	begin to approach this number, please reach out or consider implementing caching.
 </div>
 <div class="small">
-	2: Attribution may be required for some Penylo services due to third party constraints.
+	2: Specific Penylo services require attribution, if a service requires attribution it will be
+	clearly stated. Currently, only Penylo Icons requires attribution.
 </div>
 
 <style lang="scss">

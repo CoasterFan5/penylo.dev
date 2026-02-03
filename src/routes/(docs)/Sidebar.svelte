@@ -42,6 +42,7 @@
 		<a class="pageLink" href="/icons/::">/::</a>
 		<a class="pageLink" href="/icons/gallery">/gallery</a>
 		<a class="pageLink" href="/icons/list.json">/list.json</a>
+		<a class="pageLink" href="/icons/attribution">/attribution</a>
 	</div>
 </div>
 
