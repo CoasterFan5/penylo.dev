@@ -23,6 +23,9 @@ importers:
       sass-embedded:
         specifier: ^1.89.2
         version: 1.89.2
+      wrangler:
+        specifier: ^4.86.0
+        version: 4.86.0(@cloudflare/workers-types@4.20260430.1)
     devDependencies:
       '@eslint/compat':
         specifier: ^1.2.5
